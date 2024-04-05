@@ -4,8 +4,8 @@
 junit.xml
 /coverage/
 permissions-backup.acl
-/dist/changelog.md
-/dist/version.txt
+#/dist/changelog.md
+#/dist/version.txt
 /.mergify.yml
 /test/
 /tsconfig.dev.json
@@ -13,7 +13,7 @@ permissions-backup.acl
 !/lib/
 !/lib/**/*.js
 !/lib/**/*.d.ts
-dist
+#dist
 /tsconfig.json
 /.github/
 /.vscode/
@@ -24,3 +24,7 @@ tsconfig.tsbuildinfo
 !.jsii
 /.gitattributes
 /.projenrc.ts
+
+
+# Exclude jsii outdir
+dist
